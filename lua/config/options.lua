@@ -3,7 +3,7 @@
 -- Add any additional options here
 
 -- set my favorite user theme
--- vim.cmd.colorscheme("catppuccin")
+-- vim.cmd.colorscheme("eldritch")
 
 -- set the tab info universally
 vim.opt.tabstop = 4
