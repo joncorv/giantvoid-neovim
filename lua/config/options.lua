@@ -9,3 +9,7 @@
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+
+-- make sure that vim includes these when operating on words
+vim.opt.iskeyword:append("-") -- Include hyphens
+vim.opt.iskeyword:append("_") -- Include underscores
